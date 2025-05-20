@@ -45,6 +45,21 @@ const sidebars = {
           type: 'doc',
           id: 'politicas-de-servicio',
         },
+        {
+          type: 'category',
+          label: 'Primeros pasos',
+          items: [
+            {
+              type: 'doc',
+              id: 'usuario/registro'
+            },
+            {
+              type: 'doc',
+              id: 'usuario/inicio-de-sesión'
+            }
+
+          ]
+        },
 
     
     // {
