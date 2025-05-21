@@ -5,6 +5,8 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import dotenv from 'dotenv';
+dotenv.config();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -18,7 +20,7 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: process.env.DOCUSAURUS_BASE_PATH || '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
