@@ -1,6 +1,6 @@
 # Configuraciones
 
-En este apartado únicamente se detallan únicamente aquellas librerías y frameworks que requieran de configuraciones especiales. El proceso de configuración de las bases de datos es general y se mira con detalle en la sección [bases de datos]("/docs/proyecto/bases-de-datos.md").
+En este apartado únicamente se detallan únicamente aquellas librerías y frameworks que requieran de configuraciones especiales. El proceso de configuración de las bases de datos es general y se mira con detalle en la sección [bases de datos](/docs/proyecto/bases-de-datos.md).
 
 ## Configuraciones básicas
 
