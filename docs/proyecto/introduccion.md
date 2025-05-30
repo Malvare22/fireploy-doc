@@ -21,7 +21,7 @@ Por otra parte es "Software Completo", aquel que maneje el concepto de monolito,
 
 ![arquitectura software completo](image-4.png)
 
-Si se quiere ser más minucioso en dichas definiciones, estas no se rigen por completo en los conceptos básicos de arquitectura de software, ya que no se contempla la capa de datos. La configuración de esto se aprecia con detalle en el apartado [bases de datos](address)
+Si se quiere ser más minucioso en dichas definiciones, estas no se rigen por completo en los conceptos básicos de arquitectura de software, ya que no se contempla la capa de datos. La configuración de esto se aprecia con detalle en el apartado [bases de datos](/docs/proyecto/bases-de-datos)
 
 
 #### Información de Repositorio
