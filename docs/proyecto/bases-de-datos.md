@@ -7,18 +7,9 @@ Fireploy soporta los siguientes motores de bases de datos:
 - MariaDB
 - MongoBD
 
-## Configuración
+Como se menciona en el apartado [configuraciones esenciales](/docs/proyecto/configuraciones-esenciales.md), existen unas variables de entorno especiales orientadas a las bases de datos. Se debe realizar el llamado de dichas variables en sus campos pertinentes.
 
-Se requiere llamar a las variables restringidas por Fireploy, para que estas asignen la información pertinente en las conexiones con las bases de datos. En este caso se tratan de las siguientes variables:
-
-|Tecnología |Variables Restringidas                               |
-|-----------|-----------------------------------------------------|
-| SQL       | DB_DATABASE, DB_PORT, DB_HOST, DB_USER, DB_PASSWORD |
-| MongoDB   | DB_CONNECTION_URI                                   |
-
-### MongoDB
-
-Por ejemplo para MongoBD:
+### Ejemplo bases de datos MongoDB
 
 ```
 
@@ -67,6 +58,35 @@ public class BaseDeDatos {
 
 ```
 
-### SQL
+### Ejemplo bases de datos SQL (PostgreSQL)
 
-Lo mismo que antes, simplemente llamar a las variables de entorno reservadas respectivas.
+```clike
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DatabaseConnection {
+
+    public static void main(String[] args) {
+        String dbHost = System.getenv("DB_HOST");
+        String dbPort = System.getenv("DB_PORT");
+        String dbName = System.getenv("DB_DATABASE");
+        String dbUser = System.getenv("DB_USER");
+        String dbPassword = System.getenv("DB_PASSWORD");
+
+        String jdbcUrl = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
+
+        try {
+            Connection conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword);
+            System.out.println("✅ Conexión exitosa a la base de datos");
+            conn.close();
+        } catch (SQLException e) {
+            System.out.println("❌ Error al conectar con la base de datos");
+            e.printStackTrace();
+        }
+    }
+}
+
+
+```

@@ -111,19 +111,15 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'proyecto/tecnologias-soportadas'
+          id: 'proyecto/tecnologias-y-frameworks'
         },
         {
           type: 'doc',
-          id: 'proyecto/configuraciones'
+          id: 'proyecto/configuraciones-esenciales'
         },
         {
           type: 'doc',
           id: 'proyecto/bases-de-datos'
-        },
-        {
-          type: 'doc',
-          id: 'proyecto/variables-restringidas'
         },
         {
           type: 'doc',
