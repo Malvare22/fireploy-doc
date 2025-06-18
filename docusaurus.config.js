@@ -69,6 +69,21 @@ const config = {
     ],
   ],
 
+//   plugins: [
+//   [
+//     '@docusaurus/plugin-content-docs',
+//     {
+//       id: 'estudiantes',
+//       path: 'docs',
+//       routeBasePath: 'estudiantes',
+//       sidebarPath: require.resolve('./sidebarsDocentes.js'),
+//       // Especifica qué sidebar usar
+
+//     },
+//   ],
+ 
+// ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
