@@ -1,4 +1,4 @@
-# Visualización y Gestión de Información Personal
+# Gestión de Información Personal
 
 Desde tu perfil de Fireploy puedes visualizar y actualizar tu información personal de manera sencilla.
 
@@ -44,6 +44,7 @@ Desde tu perfil de Fireploy puedes visualizar y actualizar tu información perso
 :::note Notas
     Si algún campo queda vacío, el sistema te mostrará un mensaje de error indicando que es obligatorio completarlo.
     Si la **fecha de nacimiento** que ingresas es posterior o igual a tu fecha de ingreso a la universidad, aparecerá un mensaje indicando que debes corregir la fecha.
+    Las fechas se consideran inverosímiles si no se tiene una edad de al menos 16 años entre la fecha de nacimiento y la de ingreso a la universidad.
 :::
 
 
@@ -64,14 +65,3 @@ Desde tu perfil de Fireploy puedes visualizar y actualizar tu información perso
     - Si seleccionas un tipo de archivo no permitido, el sistema te mostrará un mensaje de error informándote que el archivo no es válido.
 
 :::
-
----
-
-## ¿Cómo cancelar los cambios realizados en el perfil?
-
-1. Si hiciste alguna modificación en tu perfil y decides no guardar los cambios, puedes hacer clic en la opción **Cancelar**.
-2. La vista del perfil se recargará con los datos originales sin aplicar los cambios.
-
----
-
-Con estos simples pasos puedes gestionar tu información personal en Fireploy de manera fácil y segura 🚀.

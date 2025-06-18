@@ -1,6 +1,6 @@
 # Introducción
 
-Las materias son un elemento organizativo para laa agrupación de cursos, a su vez, los cursos poseen un grupo de secciones, en los cuales vinculan los diferentes proyectos desplegados en el aplicativo.
+Las materias son un elemento organizativo para la agrupación de cursos, a su vez, los cursos poseen un grupo de secciones, en los cuales vinculan los diferentes proyectos desplegados en el aplicativo.
 
 Los atributos de una materia se organizan de la siguiente manera a nivel de vistas:
 

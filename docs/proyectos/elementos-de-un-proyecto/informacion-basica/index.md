@@ -1,4 +1,4 @@
-# Datos básicos
+# Información básica
 
 Es la definición del nombre de proyecto y su descripción que será visible para los demás usuarios de Fireploy. Así como la selección de la actividad disponible a la que se encuentra vinculado un proyecto. Estos campos se manejan aparte aparte debido a que pueden describirse sin la necesidad de conocimientos técnicos:
 
@@ -6,7 +6,7 @@ Es la definición del nombre de proyecto y su descripción que será visible par
 | -------------------------------------------------- | ----------- | ------- |-------|-----------|
 | Un texto con una longitud máxima de 50 caracteres  | Un texto con una longitud máxima de 512 caracteres   | La materia donde se encuentra el grupo al que se va a vincular el proyecto    | El curso donde se encuentra activa la actividad a la que se va a vincular | La actividad a vincular |
 
-## Modificar los datos básicos
+## Modificar los Información básica
 
 1. En la vista de configuración de un proyecto selecciona la pestaña **Información**.
 
@@ -31,7 +31,7 @@ Es la definición del nombre de proyecto y su descripción que será visible par
 
 ![alt text](image-3.png)
 
-✅ ¡Los datos básicos de tu proyecto han sido actualizados!
+✅ ¡Los Información básica de tu proyecto han sido actualizados!
 
 :::note Notas
 - Los campos obligatorios deben completarse para guardar los cambios.
