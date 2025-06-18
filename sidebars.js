@@ -39,11 +39,11 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'politicas-de-privacidad',
+      id: 'usuario-general/politicas-servicio/index',
     },
     {
       type: 'doc',
-      id: 'politicas-de-servicio',
+      id: 'usuario-general/politicas-privacidad/index',
     },
     {
       type: 'category',
@@ -51,82 +51,103 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'usuario/registro'
+          id: 'usuario-general/registro/index'
         },
         {
           type: 'doc',
-          id: 'usuario/inicio-de-sesión'
-        }
+          id: 'usuario-general/inicio-de-sesion/index'
+        },
+        {
+          type: 'doc',
+          id: 'usuario-general/recuperar-contrasenia/index'
+        },
+
 
       ]
     },
     {
+      type: 'doc',
+      id: 'usuario-general/gestion-informacion-personal/index'
+    },
+    {
+      type: 'doc',
+      id: 'usuario-general/gestionar-portafolio/index'
+    },
+    {
       type: 'category',
-      label: 'Materias y Cursos',
+      label: 'Proyecto',
       items: [
         {
           type: 'doc',
-          id: 'materias/introduccion'
+          id: 'usuario-general/proyectos/introduccion/index'
         },
         {
           type: 'doc',
-          id: 'materias/crear-materia'
+          id: 'usuario-general/proyectos/capas-y-tecnologias/index'
         },
         {
           type: 'doc',
-          id: 'materias/editar-materia'
+          id: 'usuario-general/proyectos/visualizar/index'
         },
         {
           type: 'category',
-          label: 'Administración de cursos',
+          label: 'Elementos de un proyecto',
           items: [
             {
               type: 'doc',
-              id: 'materias/curso/introduccion'
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/datos-basicos/index'
             },
             {
               type: 'doc',
-              id: 'materias/curso/crear-curso'
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/repositorios/index'
             },
             {
               type: 'doc',
-              id: 'materias/curso/editar-curso'
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/variables-de-entorno/index'
             },
             {
               type: 'doc',
-              id: 'materias/curso/visualizar-curso'
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/bases-de-datos/index'
+            },
+            {
+              type: 'doc',
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/estado/index'
+            },
+            {
+              type: 'doc',
+              id: 'usuario-general/proyectos/elementos-de-un-proyecto/colaboradores/index'
+            },
+
+
+          ]
+        },
+        {
+          type: 'doc',
+          id: 'usuario-general/proyectos/gestionar/index'
+        },
+        {
+          type: 'category',
+          label: 'Proceso de despliegue',
+          items: [
+            {
+              type: 'doc',
+              id: 'usuario-general/proyectos/proceso-de-despliegue/configuraciones-previas/index'
+            },
+            {
+              type: 'doc',
+              id: 'usuario-general/proyectos/proceso-de-despliegue/variables-especiales/index'
+            },
+            {
+              type: 'doc',
+              id: 'usuario-general/proyectos/proceso-de-despliegue/errores/index'
             },
           ]
         }
-
       ]
     },
-    {
-      type: 'category',
-      label: 'Proyectos',
-      items: [
-        {
-          type: 'doc',
-          id: 'proyecto/introduccion'
-        },
-        {
-          type: 'doc',
-          id: 'proyecto/tecnologias-y-frameworks'
-        },
-        {
-          type: 'doc',
-          id: 'proyecto/configuraciones-esenciales'
-        },
-        {
-          type: 'doc',
-          id: 'proyecto/bases-de-datos'
-        },
-        {
-          type: 'doc',
-          id: 'proyecto/codigos-error'
-        }
-      ]
-    }
+
+
+
 
 
     // {
