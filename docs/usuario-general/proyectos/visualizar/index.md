@@ -16,11 +16,25 @@
 
 ![alt text](image-6.png)
 
-### ¿Y si no quiero que mi proyecto sea visible?
+## Modificar visibilidad de mis proyectos
 
-Mira el apartado de XXXXXXXXXXXXXX
+Si deseas que tus proyectos no sean visibles por los otros usuarios puedes seguir el siguiente proceso.
 
----
+1. Dirigete al apartado **Otros** de la configuración de tu proyecto.
+
+![alt text](image-8.png)
+
+2. Presiona en **Ocultar Proyecto** y acepta.
+
+![alt text](image-9.png)
+
+3. Tu proyecto ha sido ocultado correctamente.
+
+![alt text](image-10.png)
+
+Para revertir el proceso simplemente vuelve a realizarlo, observarás que el botón de ocultar a cambiado a **Volver Proyecto Visible**.
+
+![alt text](image-11.png)
 
 ## Visualizar proyectos de otros usuarios
 

@@ -2,13 +2,15 @@
 
 Se permite a cualquier persona el registro en la plataforma, ya sea mediante un formulario de registro propio o usando el servicio de autenticación de Google Account.
 
-Es necesario conocer previamente sobre las [políticas de servicio](/docs/usuario_general/politicas-servicio/index.md) del aplicativo 
+Para este proceso es indispensable conocer con anterioridad las [políticas de servicio](../politicas-servicio/index.md) de Fireploy.
 
-Primeramente nos dirigimos al apartado de `Registro`. 
+Nos situamos en el apartado de **Registro**, el cual es accesible través de la opción registro que se encuentra en la vista de **iniciar sesión**. 
 
 ![alt text](image-1.png)
 
-## A. Registro mediante Fireploy
+## Formas de registro
+
+### A. Registro mediante Fireploy
 
 El formulario de registro del aplicativo consta de los siguientes elementos:
 
@@ -26,7 +28,7 @@ El formulario de registro del aplicativo consta de los siguientes elementos:
 
 Al confirmar, se finaliza el registro y se redirige al menú principal.
 
-## B. Registro mediante Google Account
+### B. Registro mediante Google Account
 
 El usuario selecciona “Registrarse con Google”.
 
@@ -37,6 +39,6 @@ Se despliega la ventana de selección de cuenta.
 El usuario elige cuenta, posteriormente se le solicita completar los datos adicionales (fecha de ingreso, nacimiento, sexo).
 
 
-:::
+---
 
 Una vez realizado esto podemos empezar a disfrutar de Fireploy 😎

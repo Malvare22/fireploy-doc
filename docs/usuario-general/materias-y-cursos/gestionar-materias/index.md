@@ -1,6 +1,6 @@
 # [ADMIN] Gestión de Materias
 
-Este módulo permite al usuario con rol de **administrador** gestionar las materias que se encuentran registradas en la plataforma. Estas materias posteriormente se asocian a cursos y actividades administradas por los docentes.
+Gestiona las materias que se encuentran registradas en la plataforma. Estas materias posteriormente se asocian a cursos y actividades administradas por los docentes.
 
 ## Crear una materia
 
@@ -8,25 +8,38 @@ El administrador puede crear nuevas materias de forma individual.
 
 ### Pasos para crear una materia
 
-1. Desde la barra lateral, hacer clic en **Materias**.  
-2. Seleccionar la opción **Crear Materia**.  
-3. Completar los campos del formulario.  
-4. Hacer clic en **Crear Materia**.  
-5. Confirmar la acción en el modal de confirmación.
+1. Desde la barra lateral, hacer clic en **Materias**.
+2. Seleccionar la opción **Crear Materia**.
+
+3. Completar los campos del formulario, los cuales se explican en [formulario de creación de materia](./index.md#formulario-de-creación-de-materia).  
+
+![Crear materia](image.png)
+
+4. Hacer clic en **Crear Materia**.
+
+![Materia creada](image-4.png)
 
 ### Formulario de creación de materia
 
 | Campo             | Tipo de dato    | Obligatorio | Descripción                             |
 |-------------------|-----------------|-------------|-----------------------------------------|
 | Nombre de materia | Texto libre     | Sí          | Nombre identificador de la materia.     |
-| Código de materia | Alfanumérico    | Sí          | Código único que identifica la materia. |
 | Descripción       | Texto largo     | No          | Descripción breve de la materia.        |
 | Estado            | Activa/Inactiva | Sí          | Estado inicial de la materia.           |
 
-> **Nota**  
-> Se recomienda utilizar un **código único** por cada materia.
+#### Definir cursos en creación
 
----
+Se pueden definir los cursos en este apartado.
+
+1. Da clic en **Predefinir Grupos**
+
+![Crear materia con cursos predefinidos](image-1.png)
+
+2. Ingresa los datos que desees, y ve guardando la información por fila.
+
+![Materia con nuevo curso](image-2.png)
+
+![Materia con nuevo curso ya con información](image-3.png)
 
 ## Actualizar una materia
 
@@ -36,36 +49,32 @@ El administrador puede actualizar los datos de una materia existente.
 
 1. Desde la barra lateral, hacer clic en **Materias**.  
 2. Seleccionar la opción **Listar Materias**.  
-3. En la tabla de materias, hacer clic en el botón de **Editar** de la materia deseada.  
-4. Se abre un formulario en un modal con los datos actuales.  
+
+3. En la tabla de materias, hacer clic en el botón de **Editar** de la materia deseada.
+![Listado de materias](image-5.png)
+4. Se abre un formulario en un modal con los datos actuales.
+![Ventana modal de edición de materia](image-6.png)  
 5. Modificar los campos que se requieran.  
 6. Hacer clic en **Guardar**.  
 7. Confirmar la acción en el modal.
 
 ---
 
-## Habilitar o deshabilitar una materia
+### Habilitar o deshabilitar una materia
 
-El administrador puede habilitar o deshabilitar una materia, controlando su disponibilidad en el sistema.
+El administrador puede habilitar o deshabilitar una materia, esto puede hacerse mediante el apartado de edición de materia, al igual de que se cuenta con un atajo en la tabla de **Listar Materias** en el apartado de **Acciones**.
 
-### Pasos para habilitar/deshabilitar una materia
+![Cambiar estado de materia](image-7.png)
 
-1. Desde la barra lateral, hacer clic en **Materias**.  
-2. Seleccionar la opción **Listar Materias**.  
-3. En la tabla, hacer clic en el botón de **Habilitar** o **Deshabilitar** correspondiente a la materia.  
-4. Se abre un modal de confirmación.  
-5. Hacer clic en **Confirmar**.
+![Confirmación de cambiar estado de materia](image-8.png)
 
-### Estado esperado en la tabla
-
-- Una materia habilitada se muestra como **Activa**.  
-- Una materia deshabilitada se muestra como **Inactiva**.
+![Materia con estado cambiado](image-9.png)
 
 ---
 
 ## Carga masiva de materias
 
-El sistema permite al administrador realizar la carga masiva de materias mediante un archivo en formato `.xlsx`.
+El sistema permite al administrador realizar la carga masiva de materias mediante un archivo en formato `.xlsx`. Se adjunta un archivo de ejemplo: [Formato_materias.xlsx](../../../../static/files/formato_materias.xlsx).
 
 ### Requisitos del archivo
 

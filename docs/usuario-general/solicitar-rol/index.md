@@ -1,30 +1,18 @@
 # [DOCENTE] Solicitar Rol Docente
 
 Como estudiante, puedes solicitar el cambio de rol a **docente** en la plataforma de manera sencilla.  
-Este proceso te permitirá acceder a funcionalidades avanzadas para la gestión de cursos y proyectos.
+Este proceso te permitirá acceder a funcionalidades avanzadas para la gestión de cursos.
 
----
 
-## ¿Cuándo puedes solicitar el rol de docente?
-
-✅ Eres un usuario con rol **estudiante**.  
-✅ No tienes solicitudes de rol docente pendientes de respuesta.
-
-Si ya hiciste una solicitud y todavía está en revisión, tendrás que esperar la respuesta antes de enviar una nueva.
-
----
-
-## ¿Cómo solicitar el rol de docente?
+## Solicitar el rol de docente
 
 Sigue estos pasos:
 
-1. Inicia sesión en la plataforma.
-2. Ve a tu **Perfil** (menú superior derecho).
-3. Pulsa el botón **Solicitar Rol Docente** .
+1. Ve a tu **Perfil**, para más información visita: [visualizar perfil](../informacion-de-usuario/perfil/index.md#visualizar-tu-información-personal).
 
-### Confirmación de solicitud
+2. Confirmación de solicitud
 
-- Al pulsar el botón, verás una ventana de confirmación.
+- Al pulsar el botón **Solicitar Rol de Docente**, verás una ventana de confirmación.
 - Si estás seguro, haz clic en **Aceptar**.
 - El sistema procesará la solicitud y te mostrará un mensaje confirmando que la solicitud fue enviada correctamente.
 
