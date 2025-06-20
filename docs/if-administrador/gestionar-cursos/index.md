@@ -10,22 +10,16 @@ El administrador puede crear nuevos cursos de forma individual.
 
 1. Desde la barra lateral, hacer clic en **Materias**.  
 2. En la tabla de materias, hacer clic en el botón de **Editar** de la materia deseada.  
-
-![Listado de Materias](Listado-materias.png)
-
 3. Se abre la vista de la materia con sus cursos.  
 4. Hacer clic en **Agregar**.  
-
-![Listado de Cursos](Listado-cursos.png)
-
 5. Se abre la vista de creación de curso.  
-3. Completar los campos del formulario, los cuales se explican en [formulario de creación de curso](./index.md#formulario-de-creación-de-curso).  
-
-![Creación de Curso](Crear-curso.png)
-
+6. Completar los campos del formulario, los cuales se explican en [formulario de creación de curso](./index.md#formulario-de-creación-de-curso).  
 7. Hacer clic en **Guardar**.  
-8. El sistema mostrará un modal confirmando la creación del curso.  
+8. El sistema mostrará un modal confirmando la creación del curso.
 
+![Listado de Materias](Listado-materias.png)
+![Listado de Cursos](Listado-cursos.png)
+![Creación de Curso](Crear-curso.png)
 ![Creación de Curso Exitosa](Confirmado-crear-curso.png)
 
 9. El nuevo curso se reflejará en la lista de cursos.  
@@ -66,9 +60,6 @@ Un curso inactivo no será mostrado a los estudiantes, pero puedes reactivarlo e
 2. Haz clic en el botón **Editar**.
 
 
-![Listado de cursos](Listado-cursos.png)
-
-![Vista editar curso](Vista-editar-curso.png)
 
 ## Gestión de Estudiantes
 
@@ -80,17 +71,21 @@ En cada curso puedes **agregar** y **eliminar** estudiantes de forma sencilla.
 
 2. Presiona el botón de **Aceptar**.
 
-![Botón agregar estudiante](Agregar-estudiante.png)
-
 3. Mediante el campo de ingreso, ingresa el nombre los estudiantes y selecciónalos.
 
 4. Verás que el estudiante se agrega a la lista debajo.
 
+5. Confirma la acción.
+
+![Listado de cursos](Listado-cursos.png)
+
+![Vista editar curso](Vista-editar-curso.png)
+
+![Botón agregar estudiante](Agregar-estudiante.png)
+
 ![Modal agregar estudiante - paso 1](Modal-agregar-estudiante-1.png)
 
 ![Modal agregar estudiante - paso 2](Modal-agregar-estudiante-2.png)
-
-5. Confirma la acción.
 
 ![Botón aceptar agregar](Aceptar-agregar.png)
 

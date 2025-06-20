@@ -23,7 +23,6 @@ Un curso inactivo no será mostrado a los estudiantes, pero puedes reactivarlo e
 
 2. Haz clic en el botón **Editar**.
 
-
 ![Listado de cursos](Listado-de-cursos.png)
 
 ![Vista editar curso](Vista-editar-curso.png)
@@ -39,17 +38,17 @@ En cada curso puedes **agregar** y **eliminar** estudiantes de forma sencilla.
 
 2. Presiona el botón de **Aceptar**.
 
-![Botón agregar estudiante](Agregar-estudiante.png)
-
 3. Mediante el campo de ingreso, ingresa el nombre los estudiantes y selecciónalos.
 
 4. Verás que el estudiante se agrega a la lista debajo.
 
+5. Confirma la acción.
+
+![Botón agregar estudiante](Agregar-estudiante.png)
+
 ![Modal agregar estudiante - paso 1](Modal-agregar-estudiante-1.png)
 
 ![Modal agregar estudiante - paso 2](Modal-agregar-estudiante-2.png)
-
-5. Confirma la acción.
 
 ![Botón aceptar agregar](Aceptar-agregar.png)
 

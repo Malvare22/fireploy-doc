@@ -1,4 +1,4 @@
-# [ADMIN] Gestión de Materias
+# Gestión de Materias
 
 Gestiona las materias que se encuentran registradas en la plataforma. Estas materias posteriormente se asocian a cursos y actividades administradas por los docentes.
 
@@ -13,9 +13,9 @@ El administrador puede crear nuevas materias de forma individual.
 
 3. Completar los campos del formulario, los cuales se explican en [formulario de creación de materia](./index.md#formulario-de-creación-de-materia).  
 
-![Crear materia](Crear-materia.png)
-
 4. Hacer clic en **Crear Materia**.
+
+![Crear materia](Crear-materia.png)
 
 ![Materia creada](Materia-creada.png)
 
@@ -33,9 +33,9 @@ Se pueden definir los cursos en este apartado.
 
 1. Da clic en **Predefinir Grupos**
 
-![Crear materia con cursos predefinidos](Materia-crear-con-grupos-1.png)
-
 2. Ingresa los datos que desees, y ve guardando la información por fila.
+
+![Crear materia con cursos predefinidos](Materia-crear-con-grupos-1.png)
 
 ![Materia con nuevo curso](Materia-crear-con-grupos-2.png)
 
@@ -48,15 +48,22 @@ El administrador puede actualizar los datos de una materia existente.
 ### Pasos para actualizar una materia
 
 1. Desde la barra lateral, hacer clic en **Materias**.  
+
 2. Seleccionar la opción **Listar Materias**.  
 
 3. En la tabla de materias, hacer clic en el botón de **Editar** de la materia deseada.
-![Listado de materias](Listado-materias.png)
+
 4. Se abre un formulario en un modal con los datos actuales.
-![Ventana modal de edición de materia](Editar-materia.png)  
+
 5. Modificar los campos que se requieran.  
+
 6. Hacer clic en **Guardar**.  
+
 7. Confirmar la acción en el modal.
+
+![Listado de materias](Listado-materias.png)
+
+![Ventana modal de edición de materia](Editar-materia.png)  
 
 ---
 

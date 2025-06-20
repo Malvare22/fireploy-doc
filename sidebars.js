@@ -33,7 +33,7 @@ const sidebar = {
     },
     {
       type: 'doc',
-      id: 'usuario-general/solicitar-rol/index',
+      id: 'if-docente/solicitar-rol/index',
     },
     {
       label: 'Información personal',
@@ -150,23 +150,23 @@ const sidebar = {
         },
         {
           type: 'doc',
-          id: 'usuario-general/materias-y-cursos/inscribirse/index',
+          id: 'if-estudiante/inscribirse/index',
         },
         {
           type: 'doc',
-          id: 'usuario-general/materias-y-cursos/solicitar-curso/index',
+          id: 'if-docente/solicitar-curso/index',
         },
         {
           type: 'doc',
-          id: 'usuario-general/materias-y-cursos/gestionar-cursos-admin/index',
+          id: 'if-administrador/gestionar-cursos/index',
         },
         {
           type: 'doc',
-          id: 'usuario-general/materias-y-cursos/gestionar-materias/index',
+          id: 'if-administrador/gestionar-materias/index',
         },
         {
           type: 'doc',
-          id: 'if-docente/materias-y-cursos/gestionar-curso/index',
+          id: 'if-docente/gestionar-curso/index',
         },
       ]
     },
