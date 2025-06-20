@@ -166,7 +166,7 @@ const sidebar = {
         },
         {
           type: 'doc',
-          id: 'usuario-general/materias-y-cursos/gestionar-curso/index',
+          id: 'if-docente/materias-y-cursos/gestionar-curso/index',
         },
       ]
     },

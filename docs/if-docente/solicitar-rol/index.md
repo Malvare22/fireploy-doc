@@ -1,14 +1,15 @@
-# [DOCENTE] Solicitar Rol Docente
+# Solicitar Rol Docente
 
-Como estudiante, puedes solicitar el cambio de rol a **docente** en la plataforma de manera sencilla.  
+Primeramente debes solicitar el cambio de rol a **docente** en la plataforma de manera sencilla.  
 Este proceso te permitirá acceder a funcionalidades avanzadas para la gestión de cursos.
 
+---
 
 ## Solicitar el rol de docente
 
 Sigue estos pasos:
 
-1. Ve a tu **Perfil**, para más información visita: [visualizar perfil](../informacion-de-usuario/perfil/index.md#visualizar-tu-información-personal).
+1. Ve a tu **Perfil**, para más información visita: [visualizar perfil](../../usuario-general/informacion-de-usuario/perfil/index.md).
 
 2. Confirmación de solicitud
 
@@ -16,14 +17,14 @@ Sigue estos pasos:
 - Si estás seguro, haz clic en **Aceptar**.
 - El sistema procesará la solicitud y te mostrará un mensaje confirmando que la solicitud fue enviada correctamente.
 
-![![alt text](image-1.png)](image.png)
+![Solicitud disponible](Solicitud-disponible.png)
 
 Después de enviar tu solicitud:
 
 - El botón quedará deshabilitado.
 - No podrás enviar otra solicitud mientras la actual esté pendiente.
 
-![alt text](image-2.png)
+![Solicitud enviada](Solicitud-enviada.png)
 
 ---
 
@@ -34,7 +35,9 @@ Si ya enviaste una solicitud y aún no ha sido respondida:
 - El botón **Solicitar Rol Docente** estará desactivado.
 - Aparecerá un mensaje indicándote que ya tienes una solicitud en curso.
 
-![alt text](image-3.png)
+![Solicitud enviada](Solicitud-enviada.png)
+
+---
 
 ## ¿Qué pasa después de enviar la solicitud?
 
@@ -44,7 +47,7 @@ Tu solicitud será revisada por un administrador. El proceso es el siguiente:
 | ---------------------- | ------------------------------------------------------------------------------------ |
 | **Pendiente**          | El administrador está revisando tu solicitud.                                        |
 | **Aprobada**           | ¡Felicidades! Ahora eres **docente** en la plataforma.                               |
-| **Rechazada**          | Tu solicitud no fue aprobada. Si lo deseas, podrás volver a intentarlo más adelante. |
+| **Rechazada**          | Tu solicitud no fue aprobada. Si lo deseas, podrás volver a intentarlo más adelante.  |
 
 ---
 

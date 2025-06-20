@@ -1,4 +1,4 @@
-# [ADMIN] Gestión de Solicitudes
+# Gestión de Solicitudes
 
 En FIREPLOY existen **dos tipos de solicitudes** que los administradores deben gestionar fácilmente.
 
@@ -19,7 +19,7 @@ Estas solicitudes son creadas por los usuarios que desean un **ascenso de rol** 
 | Acciones               | Opciones para aprobar o rechazar             |
 
 
-![alt text](image.png)
+![alt text](Solicitudes-rol-docente.png)
 
 ---
 
@@ -40,7 +40,7 @@ Estas solicitudes son generadas por los usuarios que solicitan su **inscripción
 | Estado                 | Estado actual (Aprobada, Rechazada)          |
 | Acciones               | Opciones para aprobar o rechazar             |
 
-![alt text](image-1.png)
+![alt text](Solicitudes-curso.png)
 
 ## Estados posibles de las solicitudes
 - ✅ **Aprobado**  
@@ -53,10 +53,10 @@ Estas solicitudes son generadas por los usuarios que solicitan su **inscripción
 2. Acepta la ventana de confirmación.
 3. Haz establecido un estado a la solicitud!
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](Responder-solicitud.png)
+![alt text](Confirmar-responder.png)
+![alt text](Respuesta-exitosa.png)
+![alt text](Actualizacion-solicitudes.png)
 
 
 :::note Notas

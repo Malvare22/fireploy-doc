@@ -10,10 +10,7 @@ Es la definición del nombre de proyecto y su descripción que será visible par
 
 1. En la vista de configuración de un proyecto selecciona la pestaña **Información**.
 
-![alt text](image.png)
-
-
-3. Modifica los campos deseados:
+2. Modifica los campos deseados:
     - **Nombre del proyecto**
     - **Descripción**
     - **Materia**
@@ -21,15 +18,11 @@ Es la definición del nombre de proyecto y su descripción que será visible par
     - **Actividad**
     - **Imagen**
 
-![alt text](image-1.png)
 
-4. Haz clic en **Guardar**.
+3. Haz clic en **Guardar**.
 
-![alt text](image-2.png)
+4. Pulsa **Aceptar** en el cuadro de confirmación.  
 
-5. Pulsa **Aceptar** en el cuadro de confirmación.  
-
-![alt text](image-3.png)
 
 ✅ ¡Los Información básica de tu proyecto han sido actualizados!
 
@@ -38,3 +31,11 @@ Es la definición del nombre de proyecto y su descripción que será visible par
 - Si dejas un campo vacío o introduces un valor inválido, el sistema mostrará un mensaje de error.
 - Al cambiar de **curso** o **actividad**, asegúrate de que la combinación sea válida en el contexto académico.
 :::
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)

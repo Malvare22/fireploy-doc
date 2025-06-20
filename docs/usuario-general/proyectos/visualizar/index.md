@@ -20,7 +20,7 @@
 
 Si deseas que tus proyectos no sean visibles por los otros usuarios puedes seguir el siguiente proceso.
 
-1. Dirigete al apartado **Otros** de la configuración de tu proyecto.
+1. Dirígete al apartado **Otros** de la configuración de tu proyecto.
 
 ![alt text](image-8.png)
 

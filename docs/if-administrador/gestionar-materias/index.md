@@ -13,11 +13,11 @@ El administrador puede crear nuevas materias de forma individual.
 
 3. Completar los campos del formulario, los cuales se explican en [formulario de creación de materia](./index.md#formulario-de-creación-de-materia).  
 
-![Crear materia](image.png)
+![Crear materia](Crear-materia.png)
 
 4. Hacer clic en **Crear Materia**.
 
-![Materia creada](image-4.png)
+![Materia creada](Materia-creada.png)
 
 ### Formulario de creación de materia
 
@@ -33,13 +33,13 @@ Se pueden definir los cursos en este apartado.
 
 1. Da clic en **Predefinir Grupos**
 
-![Crear materia con cursos predefinidos](image-1.png)
+![Crear materia con cursos predefinidos](Materia-crear-con-grupos-1.png)
 
 2. Ingresa los datos que desees, y ve guardando la información por fila.
 
-![Materia con nuevo curso](image-2.png)
+![Materia con nuevo curso](Materia-crear-con-grupos-2.png)
 
-![Materia con nuevo curso ya con información](image-3.png)
+![Materia con nuevo curso ya con información](Materia-crear-con-grupos-3.png)
 
 ## Actualizar una materia
 
@@ -51,9 +51,9 @@ El administrador puede actualizar los datos de una materia existente.
 2. Seleccionar la opción **Listar Materias**.  
 
 3. En la tabla de materias, hacer clic en el botón de **Editar** de la materia deseada.
-![Listado de materias](image-5.png)
+![Listado de materias](Listado-materias.png)
 4. Se abre un formulario en un modal con los datos actuales.
-![Ventana modal de edición de materia](image-6.png)  
+![Ventana modal de edición de materia](Editar-materia.png)  
 5. Modificar los campos que se requieran.  
 6. Hacer clic en **Guardar**.  
 7. Confirmar la acción en el modal.
@@ -64,11 +64,11 @@ El administrador puede actualizar los datos de una materia existente.
 
 El administrador puede habilitar o deshabilitar una materia, esto puede hacerse mediante el apartado de edición de materia, al igual de que se cuenta con un atajo en la tabla de **Listar Materias** en el apartado de **Acciones**.
 
-![Cambiar estado de materia](image-7.png)
+![Cambiar estado de materia](Cambiar-materia-estado-1.png)
 
-![Confirmación de cambiar estado de materia](image-8.png)
+![Confirmación de cambiar estado de materia](Cambiar-materia-estado-2.png)
 
-![Materia con estado cambiado](image-9.png)
+![Materia con estado cambiado](Cambiar-materia-estado-3.png)
 
 ---
 

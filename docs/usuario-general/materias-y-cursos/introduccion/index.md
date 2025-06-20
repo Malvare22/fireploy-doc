@@ -9,11 +9,9 @@ La vinculación de proyectos se realiza a través de **Actividades**, un curso p
 1. Inicia sesión en la plataforma.
 2. En el menú principal, haz clic en la opción **Materias**.
 3. El sistema te mostrará la página **Explorar Materias**, donde podrás ver todas las materias disponibles.
-
-![alt text](image.png)
-
 4. Para ver los cursos simplemente presiona la opción de **Ver Más** de la respectiva materia.
 
+![alt text](image.png)
 ![alt text](image-1.png)
 
 ---

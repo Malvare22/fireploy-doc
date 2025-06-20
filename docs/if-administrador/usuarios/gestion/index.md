@@ -1,4 +1,4 @@
-# [ADMIN] Gestión de Usuarios
+# Gestión de Usuarios
 
 La sección de **Gestión de Usuarios** te permite crear, consultar y actualizar la información de los usuarios registrados en el sistema de forma sencilla.
 

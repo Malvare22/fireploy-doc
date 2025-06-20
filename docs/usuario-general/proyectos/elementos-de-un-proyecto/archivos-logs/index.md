@@ -27,15 +27,15 @@ Esto facilita el seguimiento de la salud de los proyectos y asegura que los proc
 
 1. En la vista de configuración de tu proyecto, selecciona la pestaña **Logs**.
 
-![alt text](image-1.png)
-
 2. Selecciona el log que deseas visualizar.
-
-![alt text](image-2.png)
 
 :::note Nota
     Se cuenta de igual manera con la opción de descargar el log dando click en el respectivo icono.
 :::
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 ---
 
@@ -43,16 +43,12 @@ Esto facilita el seguimiento de la salud de los proyectos y asegura que los proc
 
 1. En la vista de configuración de tu proyecto, selecciona la pestaña **Logs**.
 
-![alt text](image-1.png)
+2. Haz clic en la opción **Registrar nuevos logs**.
 
-4. Haz clic en la opción **Registrar nuevos logs**.
-
-![alt text](image-1.png)
-
-
-5. Se mostrará una página de espera mientras se generan los logs, una vez generados se muestra el siguiente mensaje:
-
-![alt text](image-3.png)
-
+3. Se mostrará una página de espera mientras se generan los logs, una vez generados se muestra el siguiente mensaje:
 
 ✅ ¡Has generado y visualizado correctamente los nuevos logs!
+
+![alt text](image-1.png)
+
+![alt text](image-3.png)

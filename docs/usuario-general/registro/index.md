@@ -30,14 +30,17 @@ Al confirmar, se finaliza el registro y se redirige al menú principal.
 
 ### B. Registro mediante Google Account
 
-El usuario selecciona “Registrarse con Google”.
+1. El usuario selecciona “Registrarse con Google”.
 
-Se despliega la ventana de selección de cuenta.
+2. Se despliega la ventana de selección de cuenta.
+
+3. Posteriro a la selección de cuenta por parte de del usuario, posteriormente se le solicita completar los datos adicionales (fecha de ingreso, nacimiento, sexo).
 
 ![alt text](image-2.png)
 
-El usuario elige cuenta, posteriormente se le solicita completar los datos adicionales (fecha de ingreso, nacimiento, sexo).
+![alt text](image-3.png)
 
+![alt text](image-4.png)
 
 ---
 

@@ -36,16 +36,18 @@ En producción, simplemente cambiarías la variable:
 
 1. En la vista de configuración de un proyecto selecciona la pestaña **Repositorio**.
 
-![alt text](image-9.png)
-
 2. Ingresa las variables.
 
-![alt text](image.png)
 3. Haz clic en **Guardar**.
+
+4. Pulsa **Aceptar** en el cuadro de confirmación.
+
+![alt text](image-9.png)
+
+![alt text](image.png)
 
 ![alt text](image-5.png)
 
-4. Pulsa **Aceptar** en el cuadro de confirmación.
 ![alt text](image-6.png)
 
 
@@ -79,21 +81,17 @@ Un ejemplo común es el archivo de configuración de **Firebase**, que normalmen
 
 1. En la vista de configuración de un proyecto selecciona la pestaña **Repositorio**.
 
+2. Haz clic en **Cargar archivo (.json)**.
+
+3. Selecciona un archivo válido desde tu dispositivo.
+
+4. Haz clic en **Guardar**.
+
+5. Pulsa **Aceptar** en el cuadro de confirmación.
+
 ![alt text](image-9.png)
-
-4. Haz clic en **Cargar archivo (.json)**.
-
 ![alt text](image-1.png)
-
-5. Selecciona un archivo válido desde tu dispositivo.
 ![alt text](image-2.png)
 ![alt text](image-3.png)
-
-6. Haz clic en **Guardar**.
-
 ![alt text](image-5.png)
-
-7. Pulsa **Aceptar** en el cuadro de confirmación.
 ![alt text](image-6.png)
-
-

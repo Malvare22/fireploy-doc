@@ -12,7 +12,7 @@ Los proyectos en Fireploy están vinculados a actividades de un curso, lo que te
 
 ### Paso 1: Información Básica
 
-Completa los campos referentes a los [información básica de un proyecto](/docs/usuario-general/proyectos/elementos-de-un-proyecto/datos-basicos/index.md).
+Completa los campos referentes a la [información básica de un proyecto](../elementos-de-un-proyecto/informacion-basica/index.md).
 
 ![alt text](image-1.png)
 
@@ -32,7 +32,7 @@ Si tu proyecto no requiere base de datos:
 
 1. Haz clic en **“Omitir”**.
 
-Si requiere base de datos, agrega la información de la base de datos, para más detalles visita: [definir base de datos en el aplicativo](/docs/usuario-general/proyectos/elementos-de-un-proyecto/bases-de-datos/index.md/#definir-base-de-datos-en-el-aplicativo).
+Si requiere base de datos, agrega la información de la base de datos, para más detalles visita: [definir base de datos en el aplicativo](../elementos-de-un-proyecto/bases-de-datos/index.md).
 
 ![alt text](image-3.png)
 
@@ -57,7 +57,7 @@ Los procesos de modificación de datos son detallados en los respectivos apartad
 
 :::note Notas
 
-- La gestión de proyectos te permite actualizar, modificar y adaptar la información asociada a tus aplicaciones solo mientras el proyecto no se encuentre en un estado diferente a en línea, para más información de estados visita: [estados de un proyecto](/docs/usuario-general/proyectos/elementos-de-un-proyecto/estado/index.md).
+- La gestión de proyectos te permite actualizar, modificar y adaptar la información asociada a tus aplicaciones solo mientras el proyecto no se encuentre en un estado diferente a en línea, para más información de estados visita: [estados de un proyecto](../elementos-de-un-proyecto//estado/index.md).
   :::
 
 ---
