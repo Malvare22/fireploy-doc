@@ -1,64 +1,179 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
+import YouTubeLogo from '/static/img/social-networks/youtube.png'
+import GithubLogo from '/static/img/social-networks/github.png'
+import FacebookLogo from '/static/img/social-networks/facebook.png'
 
-const FeatureList = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
+const RocketIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={'256px'} viewBox="0 0 24 24" focusable="false" aria-hidden="true" fill="white">
+    <path d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.05-4.05c.47-.47 1.15-.68 1.81-.55zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.05-4.05c.47-.47.68-1.15.55-1.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2" />
+  </svg>
+);
 
-function Feature({Svg, title, description}) {
+function Chip({ title }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <button
+      onClick={() => console.log(title)}
+      style={{
+        padding: '6px 12px',
+        borderRadius: '10px',
+        border: '1px solid black',
+        cursor: 'pointer',
+        backgroundColor: 'black',
+      }}
+    >
+      <span style={{ fontSize: '1.1rem', color: 'white' }}>{title}</span>
+    </button>
+  );
+}
+
+const elements = {
+  youtube: ["YouTube", YouTubeLogo, "Mira tutoriales y contenido sobre el aplicativo"],
+  facebook: ["Facebook", FacebookLogo, "Mantente al tanto de las actualizaciones del aplicativo"],
+  github: ["GitHub", GithubLogo, "Observa y contribuye al código"],
+};
+
+function Card({ text }) {
+  const [title, img, body] = elements[text];
+
+  return (
+    <div
+      style={{
+        flex: '1 1 250px',
+        backgroundColor: '#f9f9f9',
+        borderRadius: '16px',
+        padding: '20px',
+        textAlign: 'center',
+        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+        boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+        cursor: 'pointer',
+      }}
+      onMouseEnter={e => {
+        e.currentTarget.style.transform = 'scale(1.03)';
+        e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.15)';
+      }}
+      onMouseLeave={e => {
+        e.currentTarget.style.transform = 'scale(1)';
+        e.currentTarget.style.boxShadow = '0 2px 6px rgba(0,0,0,0.1)';
+      }}
+    >
+      <img src={img} alt={title} style={{ maxHeight: 60 }} />
+      <h3 style={{ margin: '10px 0' }}>{title}</h3>
+      <p style={{ fontSize: '0.95rem', color: '#555' }}>{body}</p>
     </div>
   );
 }
 
-export default function HomepageFeatures() {
+const Comunnity = () => {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+    <div style={{ padding: '40px 20px' }}>
+      <h2 style={{ fontSize: '2.5rem', textAlign: 'center' }}>Comunidad</h2>
+      <p style={{ fontSize: '1.2rem', fontWeight: 'normal', textAlign: 'center' }}>
+        Consulta y comparte con esta increíble comunidad Open Source.
+      </p>
+      <div
+        style={{
+          marginTop: '40px',
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '30px',
+        }}
+      >
+        <Card text="youtube" />
+        <Card text="github" />
+        <Card text="facebook" />
+      </div>
+    </div>
+  );
+};
+const HeroSection = () => {
+  // Estilos base para los chips
+  const chipStyle = {
+    padding: '8px 16px',
+    borderRadius: '10px',
+    border: '1px solid white',
+    cursor: 'pointer',
+    backgroundColor: 'white',
+    color: '#614B8C',
+    fontWeight: 'bold',
+    fontSize: '1rem',
+    transition: 'all 0.3s ease',
+  };
+
+  // Estilos en hover aplicados dinámicamente
+  const handleMouseEnter = (e) => {
+    e.currentTarget.style.backgroundColor = '#d8c9f1';
+    e.currentTarget.style.transform = 'scale(1.06)';
+    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+  };
+
+  const handleMouseLeave = (e) => {
+    e.currentTarget.style.backgroundColor = 'white';
+    e.currentTarget.style.transform = 'scale(1)';
+    e.currentTarget.style.boxShadow = 'none';
+  };
+
+  return (
+    <section
+      style={{
+        backgroundColor: '#614B8C',
+        color: 'white',
+        padding: '50px 20px',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '40px',
+        borderBottom: '2px solid #3e2b62',
+      }}
+    >
+      <div
+        style={{
+          flex: '1 1 320px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '16px',
+          maxWidth: '600px',
+        }}
+      >
+        <h1 style={{ fontSize: '2.8rem', margin: 0 }}>Documentación de Fireploy</h1>
+        <p style={{ fontSize: '1.3rem', fontWeight: 300 }}>
+          Descubre todos los conceptos esenciales para el uso del aplicativo
+        </p>
+        <p style={{ fontSize: '1.1rem', fontWeight: 300 }}>Selecciona tu rol de usuario</p>
+
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+          {["Estudiante", "Docente", "Administrador"].map((title) => (
+            <Link
+              key={title}
+              to={`/docs/${title.toLowerCase()}/intro`}
+              style={{ ...chipStyle }}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              {title}
+            </Link>
           ))}
         </div>
       </div>
+
+      <div style={{ flex: '0 1 200px', textAlign: 'center' }}>
+        <RocketIcon />
+      </div>
     </section>
+  );
+};
+
+
+
+export default function HomepageFeatures() {
+  return (
+    <>
+      <HeroSection />
+      <Comunnity />
+    </>
   );
 }

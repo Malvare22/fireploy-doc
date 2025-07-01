@@ -1,14 +1,7 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 import dotenv from 'dotenv';
 dotenv.config();
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -16,23 +9,15 @@ const config = {
   tagline: 'Despliegues automáticos',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl:'/',
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'facebook', // Cambiar por tu nombre de org real
+  projectName: 'docusaurus',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -43,25 +28,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-        },
+        docs: false, // Desactivado porque usas plugins separados
         blog: false,
-        // {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ['rss', 'atom'],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
         // theme: {
         //   customCss: './src/css/custom.css',
         // },
@@ -70,24 +38,39 @@ const config = {
   ],
 
   plugins: [
-  [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'estudiantes',
-      path: 'estudiantes',
-      routeBasePath: 'estudiantes',
-      sidebarPath: require.resolve('./sidebarsDocentes.js'),
-      // Especifica qué sidebar usar
-
-    },
+    // Docente
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docente',
+        path: 'docs/docente',
+        routeBasePath: 'docs/docente',
+        sidebarPath: require.resolve('./sidebarsDocente.js'),
+      },
+    ],
+    // Administrador
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/estudiante',
+        routeBasePath: 'docs/estudiante',
+        sidebarPath: require.resolve('./sidebarsEstudiante.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+         id: 'estudiante',
+        path: 'docs/administrador',
+        routeBasePath: 'docs/administrador',
+        sidebarPath: require.resolve('./sidebarsAdministrador.js'),
+      },
+    ],
   ],
- 
-],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Fireploy',
@@ -95,37 +78,28 @@ const config = {
           alt: 'Fireploy',
           src: 'img/logo.png',
         },
-
+        items: [
+          {
+            label: 'Estudiante',
+            to: '/docs/estudiante/intro',
+            position: 'left',
+          },
+          {
+            label: 'Docente',
+            to: '/docs/docente/intro',
+            position: 'left',
+          },
+          {
+            label: 'Administrador',
+            to: '/docs/administrador/intro',
+            position: 'left',
+          },
+        ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Fireploy',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} Fireploy Doc.`,
       },
       prism: {
         theme: prismThemes.github,
