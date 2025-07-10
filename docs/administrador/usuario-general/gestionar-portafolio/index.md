@@ -2,26 +2,25 @@
 
 Desde Fireploy puedes visualizar y gestionar los portafolios de otros usuarios y el tuyo propio de forma sencilla.
 
----
 
 ## Visualizar portafolios públicos (sin estar logueado)
 
 1. Ingresa a la página principal de Fireploy.
 
-![alt text](image.png)
-
 2. En el menú principal, haz clic en la opción **Portafolios**.
+
 3. Se abrirá una página con los portafolios públicos de los usuarios.  
     Podrás usar el buscador para encontrar portafolios específicos.
-
-![alt text](image-1.png)
 
 4. Escribe el nombre o palabra clave del portafolio que deseas visualizar.
 
 5. Haz clic sobre el portafolio deseado (por ejemplo, **Fireploy**).
+
 6. Se abrirá una página con la información completa del portafolio seleccionado.
 
----
+![alt text](image.png)
+
+![alt text](image-1.png)
 
 ## Visualizar portafolios públicos (estando logueado)
 

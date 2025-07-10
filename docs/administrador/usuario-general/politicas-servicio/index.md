@@ -17,7 +17,7 @@ Este servicio permite automatizar los procesos de despliegue de software y asoci
 - Las actualizaciones o mejoras serán publicadas en el repositorio correspondiente cuando estén disponibles.
 
 ### 5. Privacidad y Datos
-Lo suscitado en la sección de [políticas de privacidad](./politicas-de-privacidad) previo a la fecha de actualización de las políticas del servicio.
+Lo suscitado en la sección de [políticas de privacidad](../politicas-privacidad/index.md    ) previo a la fecha de actualización de las políticas del servicio.
 
 ### 6. Limitación de Responsabilidad
 El desarrollador del aplicativo no será responsable por daños directos, indirectos, incidentales o consecuentes derivados del uso o imposibilidad de uso del software.

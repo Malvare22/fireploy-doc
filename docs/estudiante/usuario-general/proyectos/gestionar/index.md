@@ -14,17 +14,17 @@ Los proyectos en Fireploy están vinculados a actividades de un curso, lo que te
 
 Completa los campos referentes a la [información básica de un proyecto](../elementos-de-un-proyecto/informacion-basica/index.md).
 
-![alt text](image-1.png)
-
 Haz clic en **“Siguiente”**.
+
+![alt text](image-1.png)
 
 ### Paso 2: Configuración del Repositorio
 
 Completa los campos referentes a los [repositorios](../elementos-de-un-proyecto/repositorios/index.md).
 
-![alt text](image-2.png)
-
 Haz clic en **“Siguiente”**.
+
+![alt text](image-2.png)
 
 ### Paso 3: Configuración de Base de Datos
 
@@ -32,7 +32,7 @@ Si tu proyecto no requiere base de datos:
 
 1. Haz clic en **“Omitir”**.
 
-Si requiere base de datos, agrega la información de la base de datos, para más detalles visita: [definir base de datos en el aplicativo](../elementos-de-un-proyecto/bases-de-datos/index.md).
+Si requiere base de datos, agrega la información de la base de datos, para más detalles visita: [definir base de datos en el aplicativo](../elementos-de-un-proyecto/bases-de-datos/index.md#definir-base-de-datos-en-el-aplicativo).
 
 ![alt text](image-3.png)
 
@@ -43,13 +43,13 @@ Si requiere base de datos, agrega la información de la base de datos, para más
 
 El proyecto se creará y serás redirigido a la página de gestión del mismo.
 
-![alt text](image-4.png)
-
 :::note Notas
 
 - Los campos obligatorios deben completarse para poder continuar al siguiente paso.
 - Puedes omitir variables de entorno y ficheros si no son requeridos para el tipo de proyecto.
   :::
+
+![alt text](image-4.png)
 
 ## Actualizar Información de un Proyecto
 

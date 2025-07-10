@@ -2,6 +2,8 @@
 
 # Introducción
 
+### ¿Qué es Fireploy?
+
 **Fireploy** es una plataforma Open Source orientada al despliegue y divulgación de proyectos tecnológicos, alineada con el modelo de desarrollo DevOps. Su propósito principal es facilitar la presentación, automatización y gestión de portafolios tecnológicos mediante herramientas modernas y procesos estandarizados.
 
 ### ¿Por qué Fireploy?

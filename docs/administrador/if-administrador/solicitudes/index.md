@@ -53,16 +53,15 @@ Estas solicitudes son generadas por los usuarios que solicitan su **inscripción
 2. Acepta la ventana de confirmación.
 3. Haz establecido un estado a la solicitud!
 
-![alt text](Responder-solicitud.png)
-![alt text](Confirmar-responder.png)
-![alt text](Respuesta-exitosa.png)
-![alt text](Actualizacion-solicitudes.png)
-
-
 :::note Notas
     - El establecimiento de estados sobre la solicitud por parte del administrador no es modificable posteriormente.
     - Los usuarios pueden volver a realizar la misma solicitud solo cuando esta fue **Rechazada**.
 :::
+
+![alt text](Responder-solicitud.png)
+![alt text](Confirmar-responder.png)
+![alt text](Respuesta-exitosa.png)
+![alt text](Actualizacion-solicitudes.png)
 
 ---
 

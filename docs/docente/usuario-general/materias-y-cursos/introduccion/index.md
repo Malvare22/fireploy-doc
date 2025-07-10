@@ -14,8 +14,6 @@ La vinculación de proyectos se realiza a través de **Actividades**, un curso p
 ![alt text](image.png)
 ![alt text](image-1.png)
 
----
-
 ## Actividades
 
 Las **actividades** son unidades de trabajo o aprendizaje dentro de un curso.  

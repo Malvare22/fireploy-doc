@@ -8,4 +8,4 @@ Fireploy sustrae el código fuente de dos maneras:
 
 ![repositorio](image.png)
 
-Los repositorios guardan una relación con las capas para Fireploy, ya que permiten la diferenciación de los elementos de un aplicativo (las capas) y dan accesibilidad a su información (el código). A su vez cada repositorio se encuentra asociado a una de las tecnologías o librerías soportadas por Fireploy. Para más información sobre esto visita: [Tecnologías Soportadas y Tipo de proyecto](../../capas-y-tecnologias/index.md).
+Los repositorios guardan una relación con las capas para Fireploy, ya que permiten la diferenciación de los elementos de un aplicativo (las capas) y dan accesibilidad a su información (el código). A su vez cada repositorio se encuentra asociado a una de las tecnologías o librerías soportadas por Fireploy. Para más información sobre esto visita: [Tecnologías Soportadas y Tipo de proyecto](../../capas-y-tecnologias/index.md#tecnologías-soportadas).

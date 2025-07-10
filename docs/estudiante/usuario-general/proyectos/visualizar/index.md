@@ -6,13 +6,13 @@
 
 1. Dirígete a la opción **Mis Proyectos**.
 
-![alt text](image.png)
-
 2. Localiza el proyecto que deseas consultar.
 
-![alt text](image-5.png)
-
 3. Haz clic en **Ver más** para ver las configuraciones de tu proyecto.
+
+![alt text](image.png)
+
+![alt text](image-5.png)
 
 ![alt text](image-6.png)
 
@@ -22,17 +22,17 @@ Si deseas que tus proyectos no sean visibles por los otros usuarios puedes segui
 
 1. Dirígete al apartado **Otros** de la configuración de tu proyecto.
 
-![alt text](image-8.png)
-
 2. Presiona en **Ocultar Proyecto** y acepta.
-
-![alt text](image-9.png)
 
 3. Tu proyecto ha sido ocultado correctamente.
 
-![alt text](image-10.png)
-
 Para revertir el proceso simplemente vuelve a realizarlo, observarás que el botón de ocultar a cambiado a **Volver Proyecto Visible**.
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
 
 ![alt text](image-11.png)
 
@@ -40,9 +40,7 @@ Para revertir el proceso simplemente vuelve a realizarlo, observarás que el bot
 
 ### Acceso a Proyectos Públicos
 
-Puedes consultar proyectos públicos desde el menú principal de Fireploy sin necesidad de estar logueado.
-
-Pasos:
+Puedes consultar proyectos públicos desde el menú principal de Fireploy sin necesidad de estar logueado, siguiendo estos pasos:
 
 1. Ingresa a la página de inicio de Fireploy.
 
@@ -54,7 +52,7 @@ Pasos:
 
 ### Acceso autorizado
 
-Dirígete a la opción **Explorar proyectos**
+Simplemente dirígete a la opción **Explorar proyectos**
 
 ![alt text](image-4.png)
 
