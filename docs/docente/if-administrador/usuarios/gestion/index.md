@@ -61,7 +61,7 @@ La sección de **Gestión de Usuarios** te permite crear, consultar y actualizar
 
 ## Carga masiva de cursos
 
-El sistema permite al administrador realizar la carga masiva de cursos mediante un archivo en formato `.xlsx`. Se adjunta un archivo de ejemplo: [Formato_usuarios.xlsx](../../../static/files/formato_usuarios.xlsx).
+El sistema permite al administrador realizar la carga masiva de cursos mediante un archivo en formato `.xlsx`. Se adjunta un archivo de ejemplo: [Formato_usuarios.xlsx](../../../../../static/files/formato_usuarios.xlsx).
 
 ### Requisitos del archivo
 

@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import YouTubeLogo from '/static/img/social-networks/youtube.png'
 import GithubLogo from '/static/img/social-networks/github.png'
 import FacebookLogo from '/static/img/social-networks/facebook.png'
+import { URL_REFERENCES } from './labels';
 
 const RocketIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width={'256px'} viewBox="0 0 24 24" focusable="false" aria-hidden="true" fill="white">
@@ -30,13 +31,13 @@ function Chip({ title }) {
 }
 
 const elements = {
-  youtube: ["YouTube", YouTubeLogo, "Mira tutoriales y contenido sobre el aplicativo"],
-  facebook: ["Facebook", FacebookLogo, "Mantente al tanto de las actualizaciones del aplicativo"],
-  github: ["GitHub", GithubLogo, "Observa y contribuye al código"],
+  youtube: ["YouTube", YouTubeLogo, "Mira tutoriales y contenido sobre el aplicativo", URL_REFERENCES.YOUTUBE],
+  facebook: ["Facebook", FacebookLogo, "Mantente al tanto de las actualizaciones del aplicativo", URL_REFERENCES.FACEBOOK],
+  github: ["GitHub", GithubLogo, "Observa y contribuye al código", URL_REFERENCES.GITHUB],
 };
 
 function Card({ text }) {
-  const [title, img, body] = elements[text];
+  const [title, img, body, url_site] = elements[text];
 
   return (
     <div
@@ -60,7 +61,7 @@ function Card({ text }) {
       }}
     >
       <img src={img} alt={title} style={{ maxHeight: 60 }} />
-      <h3 style={{ margin: '10px 0' }}>{title}</h3>
+      <a target="_blank" href={url_site}><h3 style={{ margin: '10px 0' }}>{title}</h3></a>
       <p style={{ fontSize: '0.95rem', color: '#555' }}>{body}</p>
     </div>
   );

@@ -177,7 +177,7 @@ El administrador puede habilitar o deshabilitar un curso desde la vista de detal
 
 ## Carga masiva de cursos
 
-El sistema permite al administrador realizar la carga masiva de cursos mediante un archivo en formato `.xlsx`. Se adjunta un archivo de ejemplo: [Formato_cursos.xlsx](../../../static/files/formato_cursos.xlsx).
+El sistema permite al administrador realizar la carga masiva de cursos mediante un archivo en formato `.xlsx`. Se adjunta un archivo de ejemplo: [Formato_cursos.xlsx](../../../../static/files/formato_cursos.xlsx).
 
 ### Requisitos del archivo
 
