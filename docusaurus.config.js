@@ -66,6 +66,15 @@ const config = {
         sidebarPath: require.resolve('./sidebarsAdministrador.js'),
       },
     ],
+      [
+      '@docusaurus/plugin-content-docs',
+      {
+         id: 'despliegues',
+        path: 'docs/despliegues',
+        routeBasePath: 'docs/despliegues',
+        sidebarPath: require.resolve('./sidebarsDespliegue.js'),
+      },
+    ],
   ],
 
   themeConfig:
