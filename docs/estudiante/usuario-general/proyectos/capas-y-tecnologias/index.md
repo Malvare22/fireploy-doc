@@ -6,12 +6,22 @@ Fireploy posee un número limitado de frameworks disponibles para despliegue aut
 
 ![alt text](image-2.png)
 
+| 🚀 **Stack / Framework**                                   | 🛠️ **Versión soportada**             |
+| ---------------------------------------------------------- | ------------------------------------ |
+| **Node.js** <br/> *(Next.js, React, Angular, Express)*     | `Node.js 22`                        |
+| **Python (base)**                                          | `3.9`                               |
+| **FastAPI**                                                | `3.10`                              |
+| **Django**                                                 | `3.11`                              |
+| **PHP** <br/> *(Laravel, Symfony, PHP)*         | `8.2`                               |
+| **Spring Boot**                                            | `Java 21` + `Maven 3.9.4`           |
+| **Java (WAR con Payara)**                                  | `Java 17` + `Maven 3.9.6` + `Payara 6.2025.6` |
+
+
 ### Tipo de proyecto
 
 Los tipos de proyecto permitidos en Fireploy se catalogan cómo "Dos Capas" o "Software Completo". Definiéndose el primero como aquellos que presenten dos repositorios (uno enfocado al Frontend y otro al Backend).
 
 ![alt text](image.png)
-
 
 Por otra parte es "Software Completo", aquel que maneje el concepto de monolito, es decir, tanto su lógica de vistas como backend se encuentren definidos en la misma capa. Un buen ejemplo de esto es un software que maneje estos dos aspectos con **Laravel**.
 
