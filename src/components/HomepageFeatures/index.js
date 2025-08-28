@@ -172,8 +172,8 @@ const HeroSection = () => {
 };
 const DeploySection = () => {
   return (
-    <div style={{ padding: "40px 20px", backgroundColor: "#f4f4f4" }}>
-      <h2 style={{ fontSize: "2.2rem", textAlign: "center" }}>
+    <div style={{ padding: "40px 20px" }}>
+      <h2 style={{ fontSize: '2.5rem', textAlign: 'center' }}>
         ¡Despliega con Fireploy!
       </h2>
 
@@ -222,13 +222,23 @@ const DeploySection = () => {
   );
 };
 
-
+const Separator = () => (
+  <div
+    style={{
+      height: "2px",
+      background: "linear-gradient(to right, transparent, #ccc, transparent)",
+      margin: "40px 0",
+      width: "100%",
+    }}
+  />
+);
 
 export default function HomepageFeatures() {
   return (
     <>
       <HeroSection />
       <DeploySection />
+      <Separator />
       <Comunnity />
     </>
   );
