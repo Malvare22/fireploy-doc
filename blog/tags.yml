@@ -17,3 +17,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Tutorial
+
+escuela_devops:
+  label: Escuela DevOps
+  permalink: /estuela-devops
+  description: Pruea

@@ -1,23 +1,30 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+malaver:
+  name: Rodrigo Andrés Malaver Suárez
+  title: Software Engineer / Contributor
+  url: https://github.com/Malvare22
+  image_url: https://github.com/Malvare22.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    github: Malvare22
+    linkedin: rodrigo-andrés-malaver-suárez-9b211a204
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+alvarez:
+  name: José Julián Álvarez Reyes
+  title: Software Engineer / Contributor
+  url: https://github.com/AlvarezJoseR
+  image_url: https://github.com/AlvarezJoseR.png
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: AlvarezJoseR
+    linkedin: jose-julian-alvarez-reyes-4040b5321
+
+quiroz:
+  name: Julián Quiroz García
+  title: Software Engineer / Contributor
+  url: https://github.com/JulianQuirozG
+  image_url: https://github.com/JulianQuirozG.png
+  page: true
+  socials:
+    github: JulianQuirozG
+    linkedin: julian-quiroz-garcia-a4994b2a8
+

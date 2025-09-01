@@ -29,7 +29,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false, // Desactivado porque usas plugins separados
-        blog: false,
         // theme: {
         //   customCss: './src/css/custom.css',
         // },
@@ -60,16 +59,16 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-         id: 'estudiante',
+        id: 'estudiante',
         path: 'docs/administrador',
         routeBasePath: 'docs/administrador',
         sidebarPath: require.resolve('./sidebarsAdministrador.js'),
       },
     ],
-      [
+    [
       '@docusaurus/plugin-content-docs',
       {
-         id: 'despliegues',
+        id: 'despliegues',
         path: 'docs/despliegues',
         routeBasePath: 'docs/despliegues',
         sidebarPath: require.resolve('./sidebarsDespliegue.js'),
@@ -88,6 +87,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+          { label: 'Blog', to: '/blog', position: 'left' },
           {
             label: 'Estudiante',
             to: '/docs/estudiante/intro',
