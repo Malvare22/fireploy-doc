@@ -1,14 +1,11 @@
 # Introducción
 
-Los proyectos son la piedra angular de Fireploy, primeramente se van a mencionar unos conceptos indispensables en el proceso de despliegue de proyectos, luego se detallan los elementos que los elementos que lo componen y su respectiva configuración. 
+Los proyectos son la piedra angular de Fireploy, primeramente se van a mencionar unos conceptos indispensables en el proceso de despliegue de proyectos, luego se detallan los elementos que los elementos que lo componen y su respectiva configuración.
 
 Se recomienda ver el siguiente video, que corresponde a un tutorial básico del proceso de despliegue de un aplicativo en Fireploy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SAxKFT1ot7g?si=1ij-gaSiNpflMaUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T0w71iHVO10?si=rdLNJlvmMk1tc8xq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Templates
 
 El equipo de Fireploy a adaptado unos proyectos para que funcionen como plantillas para iniciar el desarrollo de tu aplicativo web. Para acceder a ellas ingresa en [Templates Fireploy](https://github.com/FireployOfficial).
-
-    
-

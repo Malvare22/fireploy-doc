@@ -6,8 +6,6 @@ Fireploy posee un número limitado de frameworks disponibles para despliegue aut
 
 ![alt text](image-2.png)
 
-#### Versiones
-
 | 🚀 **Stack / Framework**                                   | 🛠️ **Versión soportada**             |
 | ---------------------------------------------------------- | ------------------------------------ |
 | **Node.js** <br/> *(Next.js, React, Angular, Express)*     | `Node.js 22`                        |

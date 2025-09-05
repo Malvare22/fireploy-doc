@@ -186,7 +186,7 @@ const DeploySection = () => {
       >
         <div className="video-wrapper">
           <iframe
-            src="https://www.youtube.com/embed/SAxKFT1ot7g?si=1ij-gaSiNpflMaUo"
+            src="https://www.youtube.com/embed/T0w71iHVO10?si=rdLNJlvmMk1tc8xq"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
